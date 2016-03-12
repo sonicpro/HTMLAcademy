@@ -1,0 +1,20 @@
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.sub,
+.sup {
+    font-size: 12px;
+}
+
+.sub {
+    vertical-align: sub;
+}
+
+.sup {
+    vertical-align: super;
+}
