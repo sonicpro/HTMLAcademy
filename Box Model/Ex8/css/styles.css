@@ -1,0 +1,46 @@
+/* Базовые стили, изменять не нужно */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 540px;
+    min-height: 290px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #3a78a1;
+    background-image: url("../images/grid.png");
+    background-repeat: repeat;
+    background-position: -80px -80px;
+}
+
+.block {
+    background: rgba(0, 255, 255, 0.2);
+    border: 2px solid white;
+    height: 36px;
+    margin-bottom: 20px;
+}
+
+.block1 {
+    width: 196px;
+}
+
+.block2 {
+    margin-left: 120px;
+    width: 56px;
+    padding: 10px 40px;
+}
+
+.block3 {
+    margin-left: 20px;
+    border-width: 12px;
+    width: 166px;
+    height: 26px;
+    padding: 5px;
+}
