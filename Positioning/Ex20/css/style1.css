@@ -1,0 +1,12 @@
+html{
+    padding:0;
+}
+body{
+    font-family:"Arial", sans-serif;
+    font-size:14px;
+    line-height:1.5;
+    color:white;
+    padding:0;
+    margin:0;
+    background:#3A78A1 url('../images/grid.png') repeat -80px -80px;
+}
