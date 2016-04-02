@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 430px;
+    min-height: 280px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    background: #ecf0f1;
+}
+
+.main-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #2980b9;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: -5px;
+}
+
+.main-menu a {
+    border-left: solid 2px #2c3e50;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+
+.main-menu li.active {
+    background-color: #1abc9c;
+}

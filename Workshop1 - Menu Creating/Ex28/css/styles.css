@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 380px;
+    min-height: 280px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    background: #ecf0f1;
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    background-color: #2980b9;
+    list-style: none;
+    width: 200px;
+}
+
+.main-menu li.opened {
+    background-color: #1abc9c;
+}
+
+.main-menu li {
+    padding: 10px 15px;
+    border-bottom: 2px solid #2c3e50;
+    position: relative;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-menu .sub-menu {
+    position: absolute;
+    z-index: 10;
+    list-style: none;
+    background-color: #1abc9c;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 180px;
+    width: 200px
+}
+
+.sub-menu li {
+    border-bottom: 2px solid #2ecc71;
+}

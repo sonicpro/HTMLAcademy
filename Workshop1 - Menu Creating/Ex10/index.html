@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Многоуровневое вертикальное меню</title>
+	<link type="text/css" rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <ul class="main-menu">
+            <li><a href="#company">О компании</a></li>
+            <li class="active">
+                <a href="#services">Услуги</a>
+                <!-- добавьте подменю сюда -->
+		<ul>
+                  <li><a href="#development">Разработка</a></li>
+                  <li><a href="#seo">Продвижение</a></li>
+                  <li><a href="#context">Контекст</a></li>
+		</ul>
+            </li>
+            <li><a href="#team">Сотрудники</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </body>
+</html>
