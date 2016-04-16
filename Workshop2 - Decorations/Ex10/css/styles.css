@@ -1,0 +1,23 @@
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    color: #777777;
+}
+
+.contacts {
+    width: 250px;
+    margin: 0 auto;
+    margin-top :80px;
+}
+
+.contacts .title {
+    font: bold 20px "PT Sans", sans-serif;
+    color: #7f8c8c;
+    margin-bottom: 20px;
+}
+
+.contacts .item {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}

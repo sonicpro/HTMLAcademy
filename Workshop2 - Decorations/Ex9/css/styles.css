@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 280px;
+    min-height: 280px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+    line-height: 1.2;
+    background: #ecf0f1;
+    color: white;
+    margin: 0;
+}
+
+/*
+Все размеры, отступы, координаты, размеры шрифтов (не заданные в body) кратны 5 или 10.
+Адрес картинки-спрайта:
+/assets/course14/social-challenge.png
+*/
+
+.content {
+    padding: 20px;
+    background-color: #1abc9c;
+    width: 200px;
+}
+
+.social-share {
+    margin: 25px 0 0;
+}
+
+.heading {
+    font-size: 20px;
+    margin: 0;
+}
+
+p {
+    margin: 20px 0;
+}
+
+/* Block display rather than inline-block ensures that the container height will be exactly */
+/* the same as the .social elements height. */
+.social {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 9px;
+    background-color: #16a085;
+    background-image: url(../images/social-challenge.png);
+    background-repeat: no-repeat;
+    /* background-image: url(/assets/course14/social-challenge.png); */
+}
+
+.social-share:after {
+    content: '';
+    clear: left;
+    display: table;
+}
+
+.social-tw {
+    background-position: -30px 0;
+}
+
+.social-gp {
+    background-position: -60px 0;
+}

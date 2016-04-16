@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "PT Sans", sans-serif;
+}
+
+.paginator {
+    width: 280px;
+    padding: 10px;
+    margin: 30px auto;
+    white-space: nowrap;
+    background: #ecf0f1;
+}
+
+.paginator a,
+.paginator span {
+    display: inline-block;
+    min-width: 20px;
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    background: #95a5a6;
+}
+
+
+/* Make sure to use the long-nand background-image and background-repeat props to inherit the color, */
+/* or repeat the background color in case you use the shorthand background property. */
+.paginator .prev,
+.paginator .next {
+    text-indent: -1000px;
+    background: #95a5a6 url(../images/arrows.png) no-repeat;
+    /* background: #95a5a6 url(/assets/course14/arrows.png) no-repeat; */
+}
+
+.paginator .prev {
+    margin-right: 20px;
+}
+
+.paginator .next {
+    margin-left: 20px;
+    background-position: 0 -40px;
+}
