@@ -1,0 +1,115 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:450px;
+    height:300px;
+    padding-top:20px;
+    font-size:16px;
+    font-family:"Tahoma", sans-serif;
+    line-height:1.3;
+    background:#34495e;
+}
+
+.login-form {
+    background-color: #ffffff;
+    margin: 0 35px;
+    height: 250px;
+    padding: 20px 40px 0;
+}
+
+.login-form,
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="submit"]{
+    font-weight: bold;
+    font-size: 12px;
+    font-family:"Tahoma", sans-serif;
+    text-transform: uppercase;
+    display: block;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    padding: 10px 15px;
+    background-color: #f9f6f3;
+}
+
+div.login,
+div.password {
+    position: relative;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    border: 2px solid #000000;
+    width: 265px;
+}
+
+.login-form input[type="text"] {
+    margin: 15px 0 10px;
+}
+
+.login-form input[type="submit"] {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    width: 300px;
+    padding: 15px;
+}
+
+.login-form input[type="checkbox"]{
+    vertical-align:middle;
+    margin-right:5px;
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.controls {
+    height: 42px;
+    width: 300px;
+    line-height: 41px;
+}
+
+a {
+    color: #000000;
+    float: right;
+}
+
+.icon {
+    width: 15px;
+    height: 20px;
+    position: absolute;
+}
+
+.icon-user {
+    background: url(../images/icon-user.png) no-repeat 50% 50%;
+    /* background: url(/assets/ifmo/icon-user.png) no-repeat 50% 50%; */
+    position: absolute;
+    top: 9px;
+    right: 13px;
+}
+
+.icon-lock {
+    background: url(../images/icon-lock.png) no-repeat 50% 50%;
+    /* background: url(/assets/ifmo/icon-lock.png) no-repeat 50% 50%; */
+    position: absolute;
+    top: 10px;
+    right: 13px;
+}
+
+/*
+Адреса иконок:
+/assets/ifmo/icon-user.png
+/assets/ifmo/icon-lock.png
+Цвет фона полей:
+#f9f6f3
+Цвет кнопки:
+#000000
+Фон формы:
+#ffffff
+*/

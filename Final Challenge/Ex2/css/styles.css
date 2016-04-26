@@ -1,0 +1,78 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+body{
+    width:500px;
+    height:300px;
+    font-size:16px;
+    font-family:"Tahoma", sans-serif;
+    line-height:20px;
+    color:black;
+    background:#eeeeee;
+}
+
+h1 {
+    font-size: 25px;
+    line-height: 1;
+    padding: 40px 20px 0;
+    margin: 0 0 16px;
+    width: 200px;
+}
+
+.content {
+    padding: 0 220px 0 20px;
+    position: relative;
+    margin: 5px 0 4px;
+}
+
+input[type="submit"] {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #fb565a;
+    border-radius: 5px;
+    border-width: 0;
+    margin-top: 25px;
+    width: 200px;
+    height: 40px;
+}
+
+.logo {
+    position: absolute;
+    right: 10px;
+    top: -22px;
+    width: 210px;
+    height: 137px;
+    background: url(../images/slide-bg.png) no-repeat;
+    /* background: url(/assets/ifmo/slide-bg.png) no-repeat;     */
+}
+
+.switcher {
+    height: 65px;
+    font-size: 0;
+}
+
+.switcher-button {
+    height: 5px;
+    width: 5px;
+    border: 5px solid #666666;
+    border-radius: 50%;
+    background-color: #666666;
+    display: inline-block;
+    margin: 25px 10px 0 0; 
+}
+
+.switcher-button.active {
+    margin-left: 225px;
+    background-color: #ffffff;
+}
+
+/* 
+Адрес фоновой картинки слайда:
+/assets/ifmo/slide-bg.png
+Используемые цвета:
+#666666
+#ffffff
+#fb565a
+*/

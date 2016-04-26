@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Испытание 1: красивая форма</title>
+        <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <form class="login-form" action="/auth" method="post">
+            <span class="heading">Вход в кабинет</span>
+	    <div class="login">
+	      <input type="text" placeholder="Логин"></input>
+	      <div class="icon icon-user"> </div>
+	    </div>
+	    <div class="password">
+		<input type="password" placeholder="Пароль"></input>
+		<div class="icon icon-lock"></div>
+	    </div>
+	    <div class="controls">
+              <input type="checkbox" id="checkbox1"></input>
+              <label for="checkbox1">Запомните меня</label>
+	      <a href="#">Я забыл пароль<a>
+	    </div>
+	    <input type="submit" value="Войти"></input>
+        </form>
+    </body>
+</html>
